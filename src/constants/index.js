@@ -151,7 +151,7 @@ const experiences = [
     ],
   },
   {
-    title: "Responsive web designe",
+    title: "Responsive web design",
     company_name: "FreeCode Camp",
     icon: l3,
     iconBg: "#E6DEDD",
