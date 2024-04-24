@@ -1,7 +1,7 @@
 import React from "react";
 import { selfpro } from "../constants";
 import "../index.css";
-import pdf from "../assets/resumeAnubhav.pdf";
+import pdf from "../assets/Anubhav_Resume.pdf";
 const Hero2 = () => {
   const handleClick = () => {
     const link = document.createElement("a");
