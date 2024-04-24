@@ -29,8 +29,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    toast("Message Sent, I'll get back to you soon", {
-      icon: <i class="fa-regular fa-paper-plane"></i>,
+    toast("Message received, I'll get back to you soon", {
+      icon: <i class="fa-regular fa-paper-plane text-white"></i>,
       style: {
         borderRadius: "10px",
         background: "#874CCC",
