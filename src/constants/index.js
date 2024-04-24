@@ -348,7 +348,7 @@ const frontendprojects = [
       },
     ],
     image: evogym,
-    source_code_link: "https://evo-fitnes.netlify.app/",
+    source_code_link: "https://evo-fitness.netlify.app/",
   },
   {
     name: "BooBank",
