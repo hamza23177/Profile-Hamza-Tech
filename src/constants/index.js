@@ -318,179 +318,91 @@ const projects = [
     source_code_link:
       'https://github.com/Anubhav-dev-web/CodeClauseInternship_File-Sharing-Platform',
   },
-  {
-    name: 'Mod-AI',
-    description:
-      'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Ai-page ',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: modAi,
-    source_code_link: 'https://mod-ai-six.vercel.app/',
-  },
-  {
-    name: 'EvoGym',
-    description:
-      'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'framer-motion',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'typescript',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: evogym,
-    source_code_link: 'https://evo-fitness.netlify.app/',
-  },
+  // {
+  //   name: 'Mod-AI',
+  //   description:
+  //     'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'Ai-page ',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: modAi,
+  //   source_code_link: 'https://mod-ai-six.vercel.app/',
+  // },
+  // {
+  //   name: 'EvoGym',
+  //   description:
+  //     'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'framer-motion',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'typescript',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: evogym,
+  //   source_code_link: 'https://evo-fitness.netlify.app/',
+  // },
 
-  {
-    name: 'Article summarizer',
-    description:
-      'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries.',
-    tags: [
-      {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'GPT-4 model',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: sumzz,
-    source_code_link: 'https://ai-article-summarizer-livid.vercel.app/',
-  },
-  {
-    name: 'News App',
-    description:
-      'This is a web application that provides news articles from various categories sourced from an API. The app is built using React and Bootstrap, It also have multiple categories to filter from . ',
-    tags: [
-      {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'new -API',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: news,
-    source_code_link: 'https://github.com/Anubhav-dev-web/newsapp',
-  },
+  // {
+  //   name: 'Article summarizer',
+  //   description:
+  //     'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries.',
+  //   tags: [
+  //     {
+  //       name: 'React',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'GPT-4 model',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: sumzz,
+  //   source_code_link: 'https://ai-article-summarizer-livid.vercel.app/',
+  // },
+  // {
+  //   name: 'News App',
+  //   description:
+  //     'This is a web application that provides news articles from various categories sourced from an API. The app is built using React and Bootstrap, It also have multiple categories to filter from . ',
+  //   tags: [
+  //     {
+  //       name: 'React',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'new -API',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: news,
+  //   source_code_link: 'https://github.com/Anubhav-dev-web/newsapp',
+  // },
 ];
-
-// const frontendprojects = [
-//   {
-//     name: 'Mod-AI',
-//     description:
-//       'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
-//     tags: [
-//       {
-//         name: 'react',
-//         color: 'blue-text-gradient',
-//       },
-//       {
-//         name: 'Ai-page ',
-//         color: 'green-text-gradient',
-//       },
-//       {
-//         name: 'tailwind',
-//         color: 'pink-text-gradient',
-//       },
-//     ],
-//     image: modAi,
-//     source_code_link: 'https://mod-ai-six.vercel.app/',
-//   },
-//   {
-//     name: 'EvoGym',
-//     description:
-//       'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
-//     tags: [
-//       {
-//         name: 'react',
-//         color: 'blue-text-gradient',
-//       },
-//       {
-//         name: 'framer-motion',
-//         color: 'green-text-gradient',
-//       },
-//       {
-//         name: 'typescript',
-//         color: 'pink-text-gradient',
-//       },
-//     ],
-//     image: evogym,
-//     source_code_link: 'https://evo-fitness.netlify.app/',
-//   },
-
-//   {
-//     name: 'Article summarizer',
-//     description:
-//       'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries',
-//     tags: [
-//       {
-//         name: 'React',
-//         color: 'blue-text-gradient',
-//       },
-//       {
-//         name: 'tailwind',
-//         color: 'green-text-gradient',
-//       },
-//       {
-//         name: 'GPT-4 model',
-//         color: 'pink-text-gradient',
-//       },
-//     ],
-//     image: sumzz,
-//     source_code_link: 'https://ai-article-summarizer-livid.vercel.app/',
-//   },
-//   {
-//     name: 'News App',
-//     description:
-//       'This is a web application that provides news articles from various categories sourced from an API. The app is built using React and Bootstrap, It also have multiple categories to filter from . ',
-//     tags: [
-//       {
-//         name: 'React',
-//         color: 'blue-text-gradient',
-//       },
-//       {
-//         name: 'tailwind',
-//         color: 'green-text-gradient',
-//       },
-//       {
-//         name: 'new -API',
-//         color: 'pink-text-gradient',
-//       },
-//     ],
-//     image: news,
-//     source_code_link: 'https://github.com/Anubhav-dev-web/newsapp',
-//   },
-// ];
 
 export { services, technologies, experiences, projects, selfpro };
