@@ -229,52 +229,52 @@ const projects = [
     image: collaborator,
     source_code_link: 'https://collaborators-8cwo.onrender.com/dashboard',
   },
-  {
-    name: 'Job junction',
-    description:
-      'The  Job junction  project is a web-based platform designed to facilitate job posting and job seeking . It is a web-based platform designed for job posting and job seeking .',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'toast',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'axios',
-        color: 'red-text-gradient',
-      },
-    ],
-    image: jobj,
-    source_code_link: 'https://job-junction-cfsh.onrender.com/',
-  },
-  {
-    name: 'Hey-',
-    description:
-      'This project is a chat application built using , React, Express, MongoDB, and Socket.IO. It allows users to connect with each other and communicate with each other.',
-    tags: [
-      {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'socket-io',
-        color: 'white-text-gradient',
-      },
-    ],
-    image: chat,
-    source_code_link: 'https://hey-0b6j.onrender.com/',
-  },
+  // {
+  //   name: 'Job junction',
+  //   description:
+  //     'The  Job junction  project is a web-based platform designed to facilitate job posting and job seeking . It is a web-based platform designed for job posting and job seeking .',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'mongodb',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'toast',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'axios',
+  //       color: 'red-text-gradient',
+  //     },
+  //   ],
+  //   image: jobj,
+  //   source_code_link: 'https://job-junction-cfsh.onrender.com/',
+  // },
+  // {
+  //   name: 'Hey-',
+  //   description:
+  //     'This project is a chat application built using , React, Express, MongoDB, and Socket.IO. It allows users to connect with each other and communicate with each other.',
+  //   tags: [
+  //     {
+  //       name: 'React',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'socket-io',
+  //       color: 'white-text-gradient',
+  //     },
+  //   ],
+  //   image: chat,
+  //   source_code_link: 'https://hey-0b6j.onrender.com/',
+  // },
   {
     name: 'Expense Tracker',
     description:
@@ -318,70 +318,70 @@ const projects = [
     source_code_link:
       'https://github.com/Anubhav-dev-web/CodeClauseInternship_File-Sharing-Platform',
   },
-  // {
-  //   name: 'Mod-AI',
-  //   description:
-  //     'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
-  //   tags: [
-  //     {
-  //       name: 'react',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'Ai-page ',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'tailwind',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: modAi,
-  //   source_code_link: 'https://mod-ai-six.vercel.app/',
-  // },
-  // {
-  //   name: 'EvoGym',
-  //   description:
-  //     'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
-  //   tags: [
-  //     {
-  //       name: 'react',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'framer-motion',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'typescript',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: evogym,
-  //   source_code_link: 'https://evo-fitness.netlify.app/',
-  // },
+  {
+    name: 'Mod-AI',
+    description:
+      'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Ai-page ',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: modAi,
+    source_code_link: 'https://mod-ai-six.vercel.app/',
+  },
+  {
+    name: 'EvoGym',
+    description:
+      'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'framer-motion',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: evogym,
+    source_code_link: 'https://evo-fitness.netlify.app/',
+  },
 
-  // {
-  //   name: 'Article summarizer',
-  //   description:
-  //     'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries.',
-  //   tags: [
-  //     {
-  //       name: 'React',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'tailwind',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'GPT-4 model',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: sumzz,
-  //   source_code_link: 'https://ai-article-summarizer-livid.vercel.app/',
-  // },
+  {
+    name: 'Article summarizer',
+    description:
+      'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'GPT-4 model',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: sumzz,
+    source_code_link: 'https://ai-article-summarizer-livid.vercel.app/',
+  },
   // {
   //   name: 'News App',
   //   description:
