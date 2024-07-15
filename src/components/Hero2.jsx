@@ -1,14 +1,14 @@
-import React from "react";
-import { selfpro } from "../constants";
-import "../index.css";
-import pdf from "../assets/Anubhav_Resume.pdf";
+import React from 'react';
+import { selfpro } from '../constants';
+import '../index.css';
+import pdf from '../assets/resume_latest.pdf';
 const Hero2 = () => {
   const handleClick = () => {
-    const link = document.createElement("a");
+    const link = document.createElement('a');
 
     link.href = pdf;
 
-    link.download = "downloaded-file.pdf";
+    link.download = 'downloaded-file.pdf';
 
     document.body.appendChild(link);
 
@@ -22,10 +22,10 @@ const Hero2 = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between pl-1 lg:pl-28">
         <div className="lg:w-1/2 mb-6 lg:mb-0 p-0 md:p-20">
           <h1 className="text-4xl lg:text-6xl font-bold mb-4 text-[#ffffff]">
-            Hey !{" "}
+            Hey !{' '}
           </h1>
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-            I'm{" "}
+            I'm{' '}
             <span
               className="text-4xl lg:text-6xl font-bold mb-4 text-[#8A2BE2]"
               text

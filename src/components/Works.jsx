@@ -1,12 +1,12 @@
-import React from "react";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
+import React from 'react';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
-import { live } from "../assets";
-import { StarWrapper } from "../hoc";
-import { backendProjects, frontendprojects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from '../styles';
+import { live } from '../assets';
+import { StarWrapper } from '../hoc';
+import { projects } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({
   index,
@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -35,7 +35,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(source_code_link, '_blank')}
               className="bg-purple-700 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -79,7 +79,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
@@ -94,16 +94,16 @@ const Works = () => {
         id="project"
         className={`${styles.sectionSubText} mt-10 text-center text-5xl`}
       >
-        BACKEND PROJECTS
+        MY WORK
       </p>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {backendProjects.map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
 
-      <p
+      {/* <p
         id="project"
         className={`${styles.sectionSubText} mt-20 text-center text-5xl mb-5`}
       >
@@ -114,9 +114,9 @@ const Works = () => {
         {frontendprojects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
 
-export default StarWrapper(Works, "");
+export default StarWrapper(Works, '');
