@@ -90,12 +90,12 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <p
+      {/* <p
         id="project"
         className={`${styles.sectionSubText} mt-10 text-center text-5xl`}
       >
         MY WORK
-      </p>
+      </p> */}
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
