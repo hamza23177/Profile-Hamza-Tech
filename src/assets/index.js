@@ -28,13 +28,13 @@ import l7 from './company/l7.png';
 import hoob from './hoob.jpg';
 import news from './news.jpg';
 import sumzz from './sumzz.jpg';
-import expt from './expt.jpg';
-import fileshare from './fileShare.jpg';
+import expt from './expt.png';
+import fileshare from './fileShare.png';
 import evogym from './evogym.jpg';
 import collaborator from './collaborator.jpg';
 import chat from './chat.jpg';
 import modAi from './modAi.jpg';
-import jobj from './jobj.jpg';
+import jobj from './jobj.png';
 import java from './tech/java-removebg-preview.png';
 
 import problemsolver from './problemsolver.png';

@@ -36,21 +36,23 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'من نحن',
   },
   {
     id: 'project',
-    title: 'Projects',
+    title: 'استكشف مشاريعنا',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'تواصل معنا',
   },
   {
     id: 'Experience',
-    title: 'Experience',
+    title: 'خبراتنا المتنوعة',
   },
 ];
+
+
 
 const selfpro = {
   image1: self2,
@@ -59,22 +61,23 @@ const selfpro = {
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'تصميم وتطوير مواقع الويب',
     icon: web,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
-  },
-  {
-    title: 'UX/UI Designer',
+    title: 'تصميم تطبيقات الموبايل',
     icon: mobile,
   },
   {
-    title: 'Problem Solver',
-    icon: problemsolver,
+    title: 'التسويق الرقمي للمحلات التجارية',
+    icon: web,
+  },
+  {
+    title: 'تصميم الإعلانات والهويات البصرية',
+    icon: mobile,
   },
 ];
+
 
 const technologies = [
   {
@@ -126,88 +129,206 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Intern At CodeClause',
-    company_name: 'CodeClause',
+    title: "مؤسس منصة حمزة التقنية",
+    company_name: "منصة حمزة التقنية",
+    icon: l7, // شعار منصتك
+    iconBg: "#1d1836",
+    date: "منذ 2021 حتى الآن",
+    points: [
+      "أنشأت منصة حمزة التقنية لتقديم حلول برمجية متكاملة تشمل تصميم المواقع، تطبيقات الجوال، وأنظمة ذكية مخصصة.",
+      "طورت مواقع وتطبيقات احترافية لأصحاب المشاريع والمتاجر الرقمية باستخدام أحدث التقنيات.",
+      "صممت لوحات تحكم مرنة وسهلة الاستخدام لإدارة المحتوى والمتابعة اللحظية.",
+      "ساهمت في بناء واجهات جذابة وتجربة مستخدم سلسة تعزز من ولاء العملاء.",
+    ],
+  },
+  {
+    title: "مزود حلول ويب وتطبيقات موبايل",
+    company_name: "منصة حمزة التقنية",
     icon: l7,
-    iconBg: '#ffffff',
-    date: 'February 2024 - March 2024',
+    iconBg: "#232631",
+    date: "منذ 2022 حتى الآن",
     points: [
-      'I worked on 2 three individual projects and 1 with my team member ',
-      'Projects included a music player , an image gallery and the last one was a collaborative project it was a  file sharing platform',
-      ,
+      "برمجة مواقع إلكترونية سريعة الاستجابة باستخدام React, Tailwind, Laravel, و Flutter.",
+      "دمج قواعد البيانات وخدمات API لتقديم حلول متكاملة وسهلة الإدارة.",
+      "تطوير تطبيقات موبايل عملية وعصرية تلائم مختلف الأنشطة التجارية.",
     ],
   },
   {
-    title: 'Intern At CodeWay Solutions',
-    company_name: 'CodeWay Solutions',
+    title: "خبير تسويق رقمي وإعلانات",
+    company_name: "منصة حمزة التقنية",
+    icon: l7,
+    iconBg: "#383E56",
+    date: "منذ 2021 حتى 2024",
+    points: [
+      "أدرت حملات تسويقية فعالة عبر فيسبوك، إنستغرام، وجوجل للمحلات التجارية.",
+      "صممت هويات بصرية احترافية وأساليب دعائية تزيد من جذب العملاء.",
+      "حللت البيانات التسويقية لاستخلاص نتائج وتحسين الأداء الإعلاني.",
+    ],
+  },
+  {
+    title: "تدريب عملي - CodeClause",
+    company_name: "CodeClause",
+    icon: l7,
+    iconBg: "#ffffff",
+    date: "فبراير 2024 - مارس 2024",
+    points: [
+      "أنجزت 3 مشاريع برمجية، منها مشغل موسيقى ومعرض صور، ومشروع تشاركي لمنصة مشاركة ملفات.",
+      "عملت ضمن فريق باستخدام منهجيات فعّالة لإدارة المشاريع والتعاون التقني.",
+    ],
+  },
+  {
+    title: "تدريب تطوير برمجيات - CodeWay Solutions",
+    company_name: "CodeWay Solutions",
     icon: l6,
-    iconBg: '#ffffff',
-    date: 'January 2024 - February 2024',
+    iconBg: "#ffffff",
+    date: "يناير 2024 - فبراير 2024",
     points: [
-      'CodeWay solutions provided me the oppurtunity to show case my skills',
-      "I'm working on varios projects at codeWays ",
-      'Learning new approaches and new techniques ',
+      "شاركت في تطوير مشاريع حقيقية ضمن فريق تقني محترف.",
+      "تعلمت تقنيات وأساليب جديدة في بناء الواجهات والخلفيات البرمجية.",
+      "قمت بتحسين الأداء البرمجي وجودة الكود.",
     ],
   },
   {
-    title: 'Web development Bootcamp',
-    company_name: 'Udemy',
+    title: "معسكر تدريبي لتطوير الويب الكامل",
+    company_name: "Udemy",
     icon: l2,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    iconBg: "#383E56",
+    date: "مارس 2020 - أبريل 2021",
     points: [
-      'Learned Responsive Web Development ',
-      'Learned fullStack developnent ',
-      'The Bootcamp included , advanced Javascripts,CSS and HTML for frontend end including Bootstrap  ',
-      'I also acquired knowledge for backend that included Express.js,MongoDB Node.js and a mega project at the end',
-      'Course Instructor colt steel',
+      "تعلمت بناء واجهات متجاوبة باستخدام HTML, CSS, JavaScript و Bootstrap.",
+      "أنجزت مشروع متكامل باستخدام Node.js, Express, MongoDB.",
+      "اكتسبت مهارات بناء تطبيقات متكاملة من الواجهة إلى قاعدة البيانات.",
     ],
   },
   {
-    title: 'Responsive web design',
-    company_name: 'FreeCode Camp',
+    title: "تصميم مواقع متجاوبة",
+    company_name: "FreeCodeCamp",
     icon: l3,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    iconBg: "#E6DEDD",
+    date: "يناير 2021 - فبراير 2022",
     points: [
-      'Learned a lot of basics to advance responsive  designing ',
-      'created four projects at the end of the course',
-      'Course taught me a lot of thigs like flex-box, grid ',
+      "أتقنت تصميم واجهات متجاوبة باستخدام Flexbox, Grid, Media Queries.",
+      "طورت 4 مشاريع عملية باستخدام أحدث معايير التصميم.",
     ],
   },
   {
-    title: 'Javascript Algorithms and Data Structures',
-    company_name: 'FreeCode Camp',
+    title: "خوارزميات جافاسكربت وهياكل البيانات",
+    company_name: "FreeCodeCamp",
     icon: l3,
-    iconBg: '#383E56',
-    date: 'Sep 2023 ',
+    iconBg: "#383E56",
+    date: "سبتمبر 2023",
     points: [
-      'This cousre taught me basic to advance level of javascript',
-      'It ncludes asynchronous javascript to and other cool stuff with javascript',
-      'Javascripts is a great language to work with ',
-      'made four project by the end of the project ',
+      "تعلمت جافاسكربت من الأساسيات إلى المفاهيم المتقدمة مثل async والبرمجة الوظيفية.",
+      "أنجزت 4 مشاريع برمجية تركز على المنطق وهياكل البيانات.",
     ],
   },
   {
-    title: 'React Develpment ',
-    company_name: 'React.dev',
+    title: "رحلة تطوير واجهات React",
+    company_name: "React.dev",
     icon: l4,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    iconBg: "#E6DEDD",
+    date: "يناير 2023 - حتى الآن",
     points: [
-      'React is a a great Library to work an provides fast and modular design',
-      'JSX paints the canvas bright, components bloom in modular light.',
-      "From simple form to grandest screen, React's magic, a developer's dream.",
-      ' React empowers developers to architect performant UIs with modular ease.',
+      "متخصص في بناء واجهات باستخدام React بمفاهيم الـ hooks و context و routing.",
+      "أبدعت في تصميم واجهات تفاعلية وسريعة باستخدام بنية موديولية قابلة لإعادة الاستخدام.",
+      "اهتممت بأداء الواجهة وتجربة المستخدم من خلال تنظيم الكود وتطبيق أفضل الممارسات.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: 'Collaborator',
-    description:
-      'Collaborator is an application that helps us to manage the tasks, track progress of the task and assign task to different team members.',
+    name: 'دليل خدمات مدينة دوما',
+    description: 'يُعد تطبيق "دوما" دليلك الشامل لجميع الخدمات والعناوين في مدينة دوما، حيث يوفر لك معلومات دقيقة ومحدثة حول المشافي 🏥، المطاعم 🍴، الأطباء، محطات المحروقات 🚉، خدمات الاتصال، الإطفائية، الإسعاف، المتاجر، الأسواق، خدمات التوصيل والتكسي، صالات الأفراح، خدمات التصوير، الفرق الإنشادية، والمهن الحرفية واليدوية  .',
+
+    tags: [
+      {
+        name: 'Flutter',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'SQL',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Material',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Laravel',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: collaborator,
+    source_code_link: 'https://t.me/DalelDouma/13',
+  },
+
+  {
+    name: 'شام شوب',
+    description: 'شام شوب هو منصة تجارة إلكترونية متخصصة ببيع المنتجات الإلكترونية، الألبسة، والأحذية، ويخدم السوق السورية بشكل خاص. يوفّر تجربة تسوّق سهلة وآمنة مع واجهة أنيقة ومرتبة تُمكّن المستخدمين من استعراض وشراء المنتجات بكل سهولة، مع خيارات دفع وتوصيل تناسب الجميع.',
+
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'SQL',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: expt,
+    source_code_link: 'https://syria-shop-pro.vercel.app/',
+  },
+  {
+    name: 'نظام المحاسبة الباندا',
+    description: 'نظام المحاسبة الباندا هو نظام محاسبة متكامل مصمم لإدارة المستودعات ونقاط البيع بكفاءة عالية، مثل محلات السوبر ماركت والمتاجر التجارية المختلفة. يتميز بواجهة سهلة الاستخدام، ويدعم تتبع المبيعات والمشتريات والمخزون وإصدار التقارير المالية بشكل دقيق وسلس، مما يجعله الحل الأمثل لأصحاب الأعمال الباحثين عن تنظيم شامل ومحترف.',
+
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Laravel',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: fileshare,
+    source_code_link:
+      '#',
+  },
+  {
+    name: 'Hey',
+    description: 'Hey هو تطبيق دردشة تفاعلي يُتيح للمستخدمين التواصل الفوري فيما بينهم بطريقة سهلة وسلسة. تم تطويره باستخدام React وExpress وMongoDB وSocket.IO، ويوفر تجربة دردشة مرنة وسريعة تُمكِّن المستخدمين من البقاء على اتصال دائم ومشاركة المحادثات في الوقت الحقيقي.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'socket-io',
+        color: 'white-text-gradient',
+      },
+    ],
+    image: chat,
+    source_code_link: 'https://hey-0b6j.onrender.com/',
+  },
+    {
+    name: 'Driver XP MOTOR',
+    description: 'Driver XP MOTOR هو منصة إلكترونية متميزة تُقدّم لك أحدث موديلات الدراجات النارية وأسعارها التنافسية، بالإضافة إلى مجموعة واسعة من الاكسسوارات التي تضيف لمسة من التميز. سواء كنت من عشاق المغامرة أو تسعى للحصول على تجربة قيادة استثنائية، يوفر لك الموقع كل ما تحتاجه لاختيار الدراجة المثالية واكسسواراتها بأفضل الأسعار وأعلى الجودة.',
     tags: [
       {
         name: 'react',
@@ -218,153 +339,64 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'toast',
         color: 'pink-text-gradient',
       },
       {
-        name: 'toast',
-        color: 'green-text-gradient',
+        name: 'axios',
+        color: 'red-text-gradient',
       },
     ],
-    image: collaborator,
-    source_code_link: 'https://collaborators-8cwo.onrender.com/dashboard',
+    image: jobj,
+    source_code_link: 'https://hamza23177.github.io/my-website/',
   },
   // {
-  //   name: 'Job junction',
+  //   name: 'Mod-AI',
   //   description:
-  //     'The  Job junction  project is a web-based platform designed to facilitate job posting and job seeking . It is a web-based platform designed for job posting and job seeking .',
+  //     'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
   //   tags: [
   //     {
   //       name: 'react',
   //       color: 'blue-text-gradient',
   //     },
   //     {
-  //       name: 'mongodb',
+  //       name: 'Ai-page ',
   //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'toast',
-  //       color: 'pink-text-gradient',
-  //     },
-  //     {
-  //       name: 'axios',
-  //       color: 'red-text-gradient',
-  //     },
-  //   ],
-  //   image: jobj,
-  //   source_code_link: 'https://job-junction-cfsh.onrender.com/',
-  // },
-  // {
-  //   name: 'Hey-',
-  //   description:
-  //     'This project is a chat application built using , React, Express, MongoDB, and Socket.IO. It allows users to connect with each other and communicate with each other.',
-  //   tags: [
-  //     {
-  //       name: 'React',
-  //       color: 'blue-text-gradient',
   //     },
   //     {
   //       name: 'tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: modAi,
+  //   source_code_link: 'https://mod-ai-six.vercel.app/',
+  // },
+  // {
+  //   name: 'EvoGym',
+  //   description:
+  //     'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'framer-motion',
   //       color: 'green-text-gradient',
   //     },
   //     {
-  //       name: 'socket-io',
-  //       color: 'white-text-gradient',
+  //       name: 'typescript',
+  //       color: 'pink-text-gradient',
   //     },
   //   ],
-  //   image: chat,
-  //   source_code_link: 'https://hey-0b6j.onrender.com/',
+  //   image: evogym,
+  //   source_code_link: 'https://evo-fitness.netlify.app/',
   // },
-  {
-    name: 'Expense Tracker',
-    description:
-      'Expense Tracker is a full-stack web application built with GraphQL, React, and MongoDB. It allows users to track their expenses and manage their finances effectively.',
-    tags: [
-      {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Graph-QL',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: expt,
-    source_code_link: 'https://expense-tracker-z1iv.onrender.com/login',
-  },
-  {
-    name: 'Easy-share',
-    description:
-      'This web application allows users to securely share files of any type with others. Built with Node.js, Express.js, EJS, Tailwind CSS, and MongoDB, it offers features like password protection for shared links.',
-    tags: [
-      {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'express',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: fileshare,
-    source_code_link:
-      'https://github.com/Anubhav-dev-web/CodeClauseInternship_File-Sharing-Platform',
-  },
-  {
-    name: 'Mod-AI',
-    description:
-      'This landing page is built with React, Tailwind CSS, and Vite, providing a modern and efficient development environment for showcasing AI-related content.  ',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Ai-page ',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: modAi,
-    source_code_link: 'https://mod-ai-six.vercel.app/',
-  },
-  {
-    name: 'EvoGym',
-    description:
-      'Fitness Site Landing Page project! This landing page is designed for fitness enthusiasts and is built with React, Tailwind CSS, Vite, TypeScript, Framer Motion etc.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'framer-motion',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'typescript',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: evogym,
-    source_code_link: 'https://evo-fitness.netlify.app/',
-  },
 
   {
     name: 'Article summarizer',
-    description:
-      'This website serves as a tool to summarize lengthy articles into concise and digestible summaries. It leverages the power of GPT AI model to generate accurate and coherent summaries.',
+    description: 'موقع "ملخص المقالات" هو أداة مبتكرة تساعدك في تلخيص المقالات الطويلة وتحويلها إلى ملخصات قصيرة وسهلة الفهم. يعتمد الموقع على قوة نموذج الذكاء الاصطناعي GPT لتوليد ملخصات دقيقة ومترابطة، مما يوفر لك الوقت والجهد في قراءة المقالات الطويلة. اجعل تجربة القراءة أكثر سهولة وفعالية مع هذه الأداة المتقدمة.',
+
     tags: [
       {
         name: 'React',

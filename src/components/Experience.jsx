@@ -12,7 +12,7 @@ import { experiences } from "../constants";
 import { StarWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ experience, dir }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -32,7 +32,7 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      <div>
+      <div dir={dir}>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
@@ -42,11 +42,11 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
+      <ul className="mt-5 list-disc mr-5 space-y-2" dir={dir}>
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[14px] pr-1 tracking-wider"
           >
             {point}
           </li>
@@ -61,22 +61,24 @@ const Experience = () => {
     <>
       <motion.div id="Experience" variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          أبرز ما قدمته حتى الآن
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Achievements and Experience
+          خبراتي وإنجازاتي
         </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+      <VerticalTimeline>
+  {experiences.map((experience, index) => (
+    <ExperienceCard
+      key={`experience-${index}`}
+      experience={experience}
+      dir="rtl" // إضافة dir="rtl" هنا
+    />
+  ))}
+</VerticalTimeline>
+
       </div>
     </>
   );

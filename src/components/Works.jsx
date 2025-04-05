@@ -69,54 +69,35 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div dir="rtl">
       <motion.div variants={textVariant()}>
-        <p id="project" className={`${styles.sectionSubText} `}>
-          My work
+        <p id="project" className={`${styles.sectionSubText} text-right`}>
+          أعمالنا التقنية
         </p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText} text-right`}>
+          مشاريع حمزة التقنية
+        </h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-right"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          في <strong>منصة حمزة التقنية</strong>، نقدم مجموعة من المشاريع المتنوعة التي تعكس خبراتنا وقدرتنا على الابتكار التقني. كل مشروع تم تطويره بعناية ليعالج تحديات حقيقية ويقدم حلولاً إبداعية باستخدام أحدث التقنيات.
+          <br />
+          نستعرض هنا نماذج من أعمالنا، مع روابط مباشرة للمستودعات والعروض التفاعلية الحية، لتمنحكم نظرة أعمق على إمكانياتنا في تصميم وتطوير حلول برمجية متكاملة.
         </motion.p>
       </div>
-
-      {/* <p
-        id="project"
-        className={`${styles.sectionSubText} mt-10 text-center text-5xl`}
-      >
-        MY WORK
-      </p> */}
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
-      {/* <p
-        id="project"
-        className={`${styles.sectionSubText} mt-20 text-center text-5xl mb-5`}
-      >
-        FRONTEND PROJECTS
-      </p>
-
-      <div className="mt-20 flex flex-wrap gap-7">
-        {frontendprojects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div> */}
-    </>
+    </div>
   );
 };
+
 
 export default StarWrapper(Works, '');
