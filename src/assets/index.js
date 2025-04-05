@@ -29,7 +29,7 @@ import hoob from './hoob.jpg';
 import news from './news.jpg';
 import sumzz from './sumzz.jpg';
 import expt from './expt.png';
-import fileshare from './fileShare.png';
+import fileshare from './fileshare.png';
 import evogym from './evogym.jpg';
 import collaborator from './collaborator.jpg';
 import chat from './chat.jpg';
